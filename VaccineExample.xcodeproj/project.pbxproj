@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 52;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -13,7 +13,23 @@
 		A1BADF4225193F0D001389C0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A1BADF4025193F0D001389C0 /* Main.storyboard */; };
 		A1BADF4425193F0F001389C0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A1BADF4325193F0F001389C0 /* Assets.xcassets */; };
 		A1BADF4725193F0F001389C0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A1BADF4525193F0F001389C0 /* LaunchScreen.storyboard */; };
+		A1BADF5125193F6D001389C0 /* Vaccine in Frameworks */ = {isa = PBXBuildFile; productRef = A1BADF5025193F6D001389C0 /* Vaccine */; };
+		A1BADF5A25193F8B001389C0 /* VaccineExampleTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1BADF5925193F8B001389C0 /* VaccineExampleTests.swift */; };
+		A1BADF642519401A001389C0 /* JokeModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1BADF632519401A001389C0 /* JokeModel.swift */; };
+		A1BADF6B251940F8001389C0 /* ChuckNorrisService.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1BADF6A251940F8001389C0 /* ChuckNorrisService.swift */; };
+		A1BADF71251944EF001389C0 /* ChuckNorrisResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1BADF70251944EF001389C0 /* ChuckNorrisResponse.swift */; };
+		A1BADF7A25194567001389C0 /* JokeViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1BADF7925194567001389C0 /* JokeViewModel.swift */; };
 /* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		A1BADF5C25193F8B001389C0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A1BADF2F25193F0D001389C0 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A1BADF3625193F0D001389C0;
+			remoteInfo = VaccineExample;
+		};
+/* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
 		A1BADF3725193F0D001389C0 /* VaccineExample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = VaccineExample.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -24,10 +40,25 @@
 		A1BADF4325193F0F001389C0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A1BADF4625193F0F001389C0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		A1BADF4825193F0F001389C0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A1BADF5725193F8B001389C0 /* VaccineExampleTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = VaccineExampleTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A1BADF5925193F8B001389C0 /* VaccineExampleTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VaccineExampleTests.swift; sourceTree = "<group>"; };
+		A1BADF5B25193F8B001389C0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A1BADF632519401A001389C0 /* JokeModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JokeModel.swift; sourceTree = "<group>"; };
+		A1BADF6A251940F8001389C0 /* ChuckNorrisService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChuckNorrisService.swift; sourceTree = "<group>"; };
+		A1BADF70251944EF001389C0 /* ChuckNorrisResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChuckNorrisResponse.swift; sourceTree = "<group>"; };
+		A1BADF7925194567001389C0 /* JokeViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JokeViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
 		A1BADF3425193F0D001389C0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A1BADF5125193F6D001389C0 /* Vaccine in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A1BADF5425193F8B001389C0 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -41,6 +72,7 @@
 			isa = PBXGroup;
 			children = (
 				A1BADF3925193F0D001389C0 /* VaccineExample */,
+				A1BADF5825193F8B001389C0 /* VaccineExampleTests */,
 				A1BADF3825193F0D001389C0 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -49,6 +81,7 @@
 			isa = PBXGroup;
 			children = (
 				A1BADF3725193F0D001389C0 /* VaccineExample.app */,
+				A1BADF5725193F8B001389C0 /* VaccineExampleTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -56,15 +89,68 @@
 		A1BADF3925193F0D001389C0 /* VaccineExample */ = {
 			isa = PBXGroup;
 			children = (
+				A1BADF7425194510001389C0 /* Models */,
+				A1BADF69251940DA001389C0 /* Service */,
+				A1BADF7825194550001389C0 /* ViewModel */,
+				A1BADF81251947BE001389C0 /* View */,
 				A1BADF3A25193F0D001389C0 /* AppDelegate.swift */,
 				A1BADF3C25193F0D001389C0 /* SceneDelegate.swift */,
-				A1BADF3E25193F0D001389C0 /* ViewController.swift */,
-				A1BADF4025193F0D001389C0 /* Main.storyboard */,
 				A1BADF4325193F0F001389C0 /* Assets.xcassets */,
 				A1BADF4525193F0F001389C0 /* LaunchScreen.storyboard */,
 				A1BADF4825193F0F001389C0 /* Info.plist */,
 			);
 			path = VaccineExample;
+			sourceTree = "<group>";
+		};
+		A1BADF5825193F8B001389C0 /* VaccineExampleTests */ = {
+			isa = PBXGroup;
+			children = (
+				A1BADF5925193F8B001389C0 /* VaccineExampleTests.swift */,
+				A1BADF5B25193F8B001389C0 /* Info.plist */,
+			);
+			path = VaccineExampleTests;
+			sourceTree = "<group>";
+		};
+		A1BADF69251940DA001389C0 /* Service */ = {
+			isa = PBXGroup;
+			children = (
+				A1BADF7525194520001389C0 /* Models */,
+				A1BADF6A251940F8001389C0 /* ChuckNorrisService.swift */,
+			);
+			path = Service;
+			sourceTree = "<group>";
+		};
+		A1BADF7425194510001389C0 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				A1BADF632519401A001389C0 /* JokeModel.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		A1BADF7525194520001389C0 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				A1BADF70251944EF001389C0 /* ChuckNorrisResponse.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		A1BADF7825194550001389C0 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				A1BADF7925194567001389C0 /* JokeViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		A1BADF81251947BE001389C0 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				A1BADF3E25193F0D001389C0 /* ViewController.swift */,
+				A1BADF4025193F0D001389C0 /* Main.storyboard */,
+			);
+			path = View;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -83,9 +169,30 @@
 			dependencies = (
 			);
 			name = VaccineExample;
+			packageProductDependencies = (
+				A1BADF5025193F6D001389C0 /* Vaccine */,
+			);
 			productName = VaccineExample;
 			productReference = A1BADF3725193F0D001389C0 /* VaccineExample.app */;
 			productType = "com.apple.product-type.application";
+		};
+		A1BADF5625193F8B001389C0 /* VaccineExampleTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A1BADF5E25193F8B001389C0 /* Build configuration list for PBXNativeTarget "VaccineExampleTests" */;
+			buildPhases = (
+				A1BADF5325193F8B001389C0 /* Sources */,
+				A1BADF5425193F8B001389C0 /* Frameworks */,
+				A1BADF5525193F8B001389C0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A1BADF5D25193F8B001389C0 /* PBXTargetDependency */,
+			);
+			name = VaccineExampleTests;
+			productName = VaccineExampleTests;
+			productReference = A1BADF5725193F8B001389C0 /* VaccineExampleTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
 		};
 /* End PBXNativeTarget section */
 
@@ -99,6 +206,10 @@
 					A1BADF3625193F0D001389C0 = {
 						CreatedOnToolsVersion = 12.0;
 					};
+					A1BADF5625193F8B001389C0 = {
+						CreatedOnToolsVersion = 12.0;
+						TestTargetID = A1BADF3625193F0D001389C0;
+					};
 				};
 			};
 			buildConfigurationList = A1BADF3225193F0D001389C0 /* Build configuration list for PBXProject "VaccineExample" */;
@@ -110,11 +221,15 @@
 				Base,
 			);
 			mainGroup = A1BADF2E25193F0D001389C0;
+			packageReferences = (
+				A1BADF4F25193F6D001389C0 /* XCRemoteSwiftPackageReference "Vaccine" */,
+			);
 			productRefGroup = A1BADF3825193F0D001389C0 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
 				A1BADF3625193F0D001389C0 /* VaccineExample */,
+				A1BADF5625193F8B001389C0 /* VaccineExampleTests */,
 			);
 		};
 /* End PBXProject section */
@@ -130,6 +245,13 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		A1BADF5525193F8B001389C0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -140,10 +262,30 @@
 				A1BADF3F25193F0D001389C0 /* ViewController.swift in Sources */,
 				A1BADF3B25193F0D001389C0 /* AppDelegate.swift in Sources */,
 				A1BADF3D25193F0D001389C0 /* SceneDelegate.swift in Sources */,
+				A1BADF7A25194567001389C0 /* JokeViewModel.swift in Sources */,
+				A1BADF642519401A001389C0 /* JokeModel.swift in Sources */,
+				A1BADF71251944EF001389C0 /* ChuckNorrisResponse.swift in Sources */,
+				A1BADF6B251940F8001389C0 /* ChuckNorrisService.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A1BADF5325193F8B001389C0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A1BADF5A25193F8B001389C0 /* VaccineExampleTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A1BADF5D25193F8B001389C0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A1BADF3625193F0D001389C0 /* VaccineExample */;
+			targetProxy = A1BADF5C25193F8B001389C0 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		A1BADF4025193F0D001389C0 /* Main.storyboard */ = {
@@ -319,6 +461,46 @@
 			};
 			name = Release;
 		};
+		A1BADF5F25193F8B001389C0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = H4K48S49BZ;
+				INFOPLIST_FILE = VaccineExampleTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.wanis.VaccineExampleTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/VaccineExample.app/VaccineExample";
+			};
+			name = Debug;
+		};
+		A1BADF6025193F8B001389C0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = H4K48S49BZ;
+				INFOPLIST_FILE = VaccineExampleTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.wanis.VaccineExampleTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/VaccineExample.app/VaccineExample";
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -340,7 +522,35 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
+		A1BADF5E25193F8B001389C0 /* Build configuration list for PBXNativeTarget "VaccineExampleTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A1BADF5F25193F8B001389C0 /* Debug */,
+				A1BADF6025193F8B001389C0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		A1BADF4F25193F6D001389C0 /* XCRemoteSwiftPackageReference "Vaccine" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/munirwanis/Vaccine.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 1.0.1;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		A1BADF5025193F6D001389C0 /* Vaccine */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = A1BADF4F25193F6D001389C0 /* XCRemoteSwiftPackageReference "Vaccine" */;
+			productName = Vaccine;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = A1BADF2F25193F0D001389C0 /* Project object */;
 }
